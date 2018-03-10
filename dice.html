@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dice</title>
+
+	<style type="text/css">
+		
+		h1 {
+			color: blue;
+			font-size: 150px;
+			margin: 0;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<h1>1</h1>
+
+	<button id="roll">Roll Dice</button>
+
+	<script type="text/javascript">
+		
+		var rollDice = document.getElementById("roll");
+
+		rollDice.addEventListener("click", function() {
+			document.querySelector("h1").textContent = Math.floor((Math.random() * 6)+1);
+		});
+
+
+	</script>
+
+</body>
+</html>

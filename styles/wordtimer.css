@@ -1,0 +1,77 @@
+body {
+	background-color: #C7C7C7;
+	margin: 0;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 0;
+	padding-top: 10px;
+}
+
+p {
+	font-size: 25px;
+	margin: 0;
+	padding: 10px;
+}
+
+#head {
+	background-color: rgb(20, 20, 200);
+	color: white;
+	margin: 0;
+	text-align: center;
+}
+
+#menu {
+	width: 100%;
+	background-color: white;
+	margin: 0 auto;
+	padding: 5px 0;
+	float: left;
+}
+
+#menu button {
+	float: right;
+	margin: 0 10px;
+}
+
+span {
+	font-size: 20px;
+	width: 250px;
+	color: rgb(20, 20, 200);
+	padding: 0 10px;
+}
+
+li span {
+	color: white;
+}
+
+input {
+	float: right;
+	width: 250px;
+	margin-right: 50px;
+}
+
+.right-border {
+	border-right: 2px solid rgb(20, 20, 200);
+}
+
+
+.hide-me {
+	display: none;
+}
+
+.click-me {	
+	height: 250px;
+	width: 250px;
+}
+
+#word-container {
+	position: relative;
+	top: 25%;
+	width: 250px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	color: white;
+}

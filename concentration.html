@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Word Memory Game</title>
+
+	<link rel="stylesheet" type="text/css" href="styles/concentration.css">
+
+	<script type="text/javascript" src="scripts/lib/jquery-3.3.1.min.js"></script>
+
+</head>
+<body>
+
+	<h1>Can You Find The Words?</h1>
+
+	<div id="menu">
+		<div class="menu-container">
+			<button id="hide">Hide The Words</button>
+
+			<button id="reshuffle">Reshuffle The Cards</button>
+
+			<span id="messages"></span>
+
+			<span id="score"></span>
+
+			<button id="new">New Game</button>
+		</div>
+
+		<div class="menu-container">
+			<details>
+				<summary>High Scores</summary>
+				<ol id="score-list">
+					<li><span class="winner-name">Zon</span>: <span class="high-score">100</span></li>
+					<li><span class="winner-name">Eli Rook</span>: <span class="high-score">80</span></li>
+					<li><span class="winner-name">Teacher Chris</span>: <span class="high-score">55</span></li>
+					<li><span class="winner-name">Billy Gourdon</span>: <span class="high-score">50</span></li>
+					<li><span class="winner-name">Bubba Pumpkinface</span>: <span class="high-score">25</span></li>
+				</ol>
+
+				<button id="add-score">Add Your Score!</button>
+				
+			</details>
+		</div>
+	</div>
+
+<div id="card-container">	
+
+	<div class="word-card">1<br><span class="vocab"></span></div>
+
+	<div class="word-card">2<br><span class="vocab"></span></div>
+
+	<div class="word-card">3<br><span class="vocab"></span></div>
+
+	<div class="word-card">4<br><span class="vocab"></span></div>
+
+	<div class="word-card">5<br><span class="vocab"></span></div>
+
+	<div class="word-card">6<br><span class="vocab"></span></div>
+
+	<div class="word-card">7<br><span class="vocab"></span></div>
+
+	<div class="word-card">8<br><span class="vocab"></span></div>
+
+	<div class="word-card">9<br><span class="vocab"></span></div>
+
+	<div class="word-card">10<br><span class="vocab"></span></div>
+
+	<div class="word-card">11<br><span class="vocab"></span></div>
+
+	<div class="word-card">12<br><span class="vocab"></span></div>
+
+	<div class="word-card">13<br><span class="vocab"></span></div>
+
+	<div class="word-card">14<br><span class="vocab"></span></div>
+
+	<div class="word-card">15<br><span class="vocab"></span></div>
+
+	<div class="word-card">16<br><span class="vocab">16</span></div>
+
+</div>
+
+<script type="text/javascript" src="scripts/concentration.js"></script>
+</body>
+</html>

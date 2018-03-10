@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reading Race</title>
+
+	<link rel="stylesheet" type="text/css" href="styles/wordtimer.css">
+
+	<script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
+
+</head>
+<body>
+
+	<div id = "head">
+		<h1>Reading Race: How fast are you?</h1>
+
+		<p>Read and say the words as quickly as you can!</p>
+
+		<details>
+			<summary>High Scores</summary>
+			<ol id="score-list">
+				<li><span class="winner-name">Zon</span>: <span class="high-score">25</span></li>
+				<li><span class="winner-name">Eli Rook</span>: <span class="high-score">40</span></li>
+				<li><span class="winner-name">Teacher Chris</span>: <span class="high-score">60</span></li>
+				<li><span class="winner-name">Billy Gourdon</span>: <span class="high-score">100</span></li>
+				<li><span class="winner-name">Bubba Pumpkinface</span>: <span class="high-score">200</span></li>
+			</ol>
+
+			<button id="add-score">Add Your Score!</button>
+				
+		</details>
+	</div>
+
+	<div id="menu">
+
+		<span class="right-border">Your Time: <span id="seconds"></span></span>
+
+		<span class="right-border">Total Time: <span id="total-seconds"></span></span>
+
+		<input type="text" placeholder="What's the word? Type and hit enter!">
+
+		<button id="start">Start Game</button>
+
+		<button id="new-game">New Game</button>
+
+	</div>
+
+	<div class="click-me hide-me">
+		<div id = "word-container">
+	<!-- 		input and print words to here on click -->
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="scripts/wordtimer.js"></script>
+
+</body>
+</html>
