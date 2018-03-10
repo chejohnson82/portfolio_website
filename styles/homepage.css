@@ -1,12 +1,23 @@
+body {
+	background-color: rgb(225, 225, 225);
+}
+
 h1 {
-	color: green;
 	font-size: 50px;
+	text-align: center;
 }
 
 h3 {
 	font-size: 30px;
+	text-align: center;
 }
 
-li {
-	color: blue;
+img {
+	height: 400px;
+	width: 40%;
+	margin: 0 30%;
+}
+
+nav {
+	background-color: green;
 }
