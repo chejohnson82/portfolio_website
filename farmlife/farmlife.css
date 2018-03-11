@@ -1,0 +1,251 @@
+/*.rotate90 {
+
+	transform: rotate(90deg);
+}
+
+.rotate180 {
+	transform: rotate(180deg);
+}*/
+
+html {
+  height: 100%;
+}
+
+body {
+	padding-top: 70px;
+  background: #ceddce;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5em;
+}
+
+hr {
+  width: 650px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2)
+}
+
+.form-inline .form-control {
+  width: 50%;
+}
+
+nav {
+    z-index: 1;
+  }
+
+
+#landing-headers {
+  text-align: center;
+  /*center content div properties*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 60%;
+  color: #6aba77;
+  text-shadow: 2px 0 0 #000, 
+               -2px 0 0 #000, 
+               0 2px 0 #000, 
+               0 -2px 0 #000, 
+               1px 1px #000, 
+               -1px -1px 0 #000, 
+               1px -1px 0 #000, 
+               -1px 1px 0 #000;
+  font-family: 'Lato', sans-serif;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    #landing-headers {
+        transform: translate(-50%, 25%);
+    }
+  
+    #landing-headers h1 {
+        font-size: 3em;  
+  }
+}
+
+#about-headers {
+  text-align: center;
+  padding-top: 25%;
+  color: #6aba77;
+  text-shadow: 2px 0 0 #000, 
+               -2px 0 0 #000, 
+               0 2px 0 #000, 
+               0 -2px 0 #000, 
+               1px 1px #000, 
+               -1px -1px 0 #000, 
+               1px -1px 0 #000, 
+               -1px 1px 0 #000;
+  font-family: 'Lato', sans-serif;
+}
+
+.other-headers {
+  text-align: center;
+  padding: 15px 60px;
+}
+
+.other-titles {
+  margin-bottom: 25px;
+}
+
+#sunset-landing-page {
+  background: url(images/landingsunset.jpg), #ceddce;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#moonrise-background {
+  background: url(images/moonrise.jpg), #ceddce;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.image1 {
+  background-image: url(images/veggies.jpg);
+}
+
+.image2 {
+  background-image: url(images/guavaflower.jpg);
+  transform: rotate(90deg);
+}
+
+.image3 {
+  background-image: url(images/sweetieguava.jpg);
+  transform: rotate(90deg);
+}
+
+.image4 {
+  background-image: url(images/construction.jpg);
+}
+
+.image5 {
+  background-image: url(images/fertilize.jpg);
+}
+
+.image6 {
+  background-image: url(images/pappyduck.jpg);
+  transform: rotate(180deg);
+}
+
+.image7 {
+  background-image: url(images/guarddogs.jpg);
+}
+
+.image8 {
+  background-image: url(images/bayabazon.jpg);
+  transform: rotate(90deg);
+}
+
+.image9 {
+  background-image: url(images/birdfeeding.jpeg);
+}
+
+.image10 {
+  background-image: url(images/mothflower.jpg);
+}
+
+.image11 {
+  background-image: url(images/guavabasket.jpg);
+  transform: rotate(90deg);
+}
+
+.image12 {
+  background-image: url(images/palay.jpg);
+}
+
+.thumbnail {
+	position: relative;
+	overflow: hidden;
+}
+
+.jumbotron {
+	color: #183a17;
+	background: #ecf0f1;
+}
+
+.navbar-inverse {
+	background: #183a17;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #FFFFFF;
+}
+
+.blog-post {
+  color: #000;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.blog-post span {
+  color: #066599;
+  font-size: 1.25em;
+}
+
+.blog-post h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #a7b2b0;
+}
+
+
+.blog-post p {
+  font-size: 1em;
+  padding: 5px;
+}
+
+.blog-post .first-paragraph {
+  border-left: 4px solid #a7b2b0;
+  padding-left: 15px;
+  margin-top: 30px;
+}
+
+.blog-post .thumbnail {
+  min-width: 225px;
+  max-width: 50%;
+  height: auto;
+  min-height: 150px;
+  border: 1px solid #000;
+  margin: 20px auto;
+}
+
+.blog-post .tall-pic {
+  min-width: 150px;
+  max-width: 30%;
+  min-height: 225px;
+}
+
+.blog-post .pic-row {
+  max-width: 50%;
+  margin-bottom: 15px;
+}
+
+.blog-post .thumbnail img {
+  width: 100%;
+}
+
+
+/*img {
+	height: 300px;
+	width: 350px;
+}*/
+
+/*Dark Blue #2c3e50
+Light Gray #ecf0f1*/

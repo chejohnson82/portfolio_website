@@ -1,5 +1,6 @@
 body {
 	background-color: rgb(225, 225, 225);
+	padding-top: 70px; 
 }
 
 h1 {
@@ -14,10 +15,19 @@ h3 {
 
 img {
 	height: 400px;
-	width: 40%;
-	margin: 0 30%;
+	width: 100%;
 }
 
-nav {
-	background-color: green;
+a {
+	color: rgb(75, 75, 75);
+	font-size: 20px;
+	line-height: 2.5;
 }
+
+nav a {
+	line-height: 1;
+}
+
+/*nav {
+	background-color: green;
+}*/

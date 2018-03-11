@@ -71,9 +71,11 @@ function heresTheShape(){
 function hideTheShape(){
 
 	shapeHide.stop(); // Stop it t seconds later...
+  var t = shapeHide.getSeconds();
+  yourTime.textContent = t.toFixed(2) + " seconds";
+
 	boxCircle.classList.toggle("hide-me");
-	yourTime.textContent = (shapeHide.getSeconds()) + " seconds";
-  totalTime += shapeHide.getSeconds();
+  totalTime += Number(t.toFixed(2));
   sumTime.textContent = totalTime + " seconds";
 	shapeHide.clear();
 
@@ -106,7 +108,7 @@ function randomColor(){
 
 addScore.addEventListener("click", function(){
   var newName = prompt("Great Work! What is your name?");
-  $("ol").append("<li><span class='winner-name'>" + newName + "</span>: <span class='high-score'>" + totalTime +"</span></li>");
+  $("ol").append("<li><span class='winner-name'>" + newName + "</span>: <span class='high-score'>" + Number(totalTime.toFixed(2)) +"</span></li>");
   insertNewScore();
 });
 
